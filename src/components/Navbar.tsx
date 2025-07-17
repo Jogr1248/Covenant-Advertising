@@ -69,7 +69,8 @@ const Navbar = () => {
 
     {/* Mobile Nav */}
     {isMobileMenuOpen && (
-      <div className="md:hidden mt-4 pb-4">
+  <div className="md:hidden fixed top-0 left-0 w-full h-screen bg-black z-40 pt-24 px-6 space-y-6">
+
         {navItems.map((item) => (
           <a
             key={item.name}
