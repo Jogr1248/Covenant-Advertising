@@ -3,7 +3,7 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="pt-36 md:pt-44 relative min-h-screen flex items-center justify-center overflow-hidden">
       
     
 
