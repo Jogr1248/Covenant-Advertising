@@ -44,7 +44,7 @@ const PreviousWorks: React.FC = () => {
     duration: 'Outstanding Results',
     description: 'Strategic digital marketing campaign...',
     videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
-    videoUrl: '/videos/mafi.mp4', // <-- Local path
+    videoUrl: 'mafi.mp4', // <-- Local path
     isLocalVideo: true,
     results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
     status: 'Completed'
