@@ -55,7 +55,7 @@ const PreviousWorks: React.FC = () => {
     duration: 'Ongoing Success',
     description: 'Real-time social media management...',
     videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
-    videoUrl: './public/mafi.mp4', // <-- Local path
+    videoUrl: '/cloud-sun.mp4', // <-- Local path
     isLocalVideo: true,
     results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
     status: 'Active'
