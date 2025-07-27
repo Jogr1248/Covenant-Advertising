@@ -7,10 +7,12 @@ type Project = {
   duration: string;
   description: string;
   videoThumbnail: string;
-  videoUrl: string;
+  videoUrl: string; // can be local file or YouTube embed
+  isLocalVideo?: boolean; // <-- NEW flag
   results: string[];
   status: 'Active' | 'Completed';
 };
+
 
 const PreviousWorks: React.FC = () => {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
@@ -37,24 +39,26 @@ const PreviousWorks: React.FC = () => {
       status: 'Completed'
     },
     {
-      name: 'Mafi Restaurant',
-      location: 'Adama',
-      duration: 'Outstanding Results',
-      description: 'Strategic digital marketing campaign...',
-      videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
-      videoUrl: 'https://www.youtube.com/embed/78z9wfm-Gtg',
-      results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
-      status: 'Completed'
+    name: 'Mafi Restaurant',
+    location: 'Adama',
+    duration: 'Outstanding Results',
+    description: 'Strategic digital marketing campaign...',
+    videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
+    videoUrl: '/videos/mafi.mp4', // <-- Local path
+    isLocalVideo: true,
+    results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
+    status: 'Completed'
     },
     {
       name: 'Cloud Sun Cafe',
-      location: 'Currently Active',
-      duration: 'Ongoing Success',
-      description: 'Real-time social media management...',
-      videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
-      status: 'Active'
+    location: 'Currently Active',
+    duration: 'Ongoing Success',
+    description: 'Real-time social media management...',
+    videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
+    videoUrl: '/videos/cloud-sun.mp4', // <-- Local path
+    isLocalVideo: true,
+    results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
+    status: 'Active'
     }
   ];
 
@@ -206,14 +210,35 @@ const PreviousWorks: React.FC = () => {
               <X size={28} />
             </button>
             <div className="w-full h-0 pb-[56.25%] relative">
-              <iframe
-                src={selectedVideo}
-                className="absolute top-0 left-0 w-full h-full"
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title="Project Video"
-              />
+             {(() => {
+  const project = projects.find(p => p.videoUrl === selectedVideo);
+  if (!project) return null;
+
+  if (project.isLocalVideo) {
+    return (
+      <video
+        controls
+        autoPlay
+        className="absolute top-0 left-0 w-full h-full rounded-lg"
+      >
+        <source src={project.videoUrl} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    );
+  } else {
+    return (
+      <iframe
+        src={project.videoUrl}
+        className="absolute top-0 left-0 w-full h-full rounded-lg"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="Project Video"
+      />
+    );
+  }
+})()}
+
             </div>
           </div>
         </div>
