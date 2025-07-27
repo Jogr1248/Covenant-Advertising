@@ -31,7 +31,7 @@ const Testimonials = () => {
 
   const currentClients = [
     {
-      name: 'Kerevat Cafe & Restaurant',
+      name: 'Cloud Sun Cafe',
       role: 'Currently Active Project',
       image: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
       rating: 5,

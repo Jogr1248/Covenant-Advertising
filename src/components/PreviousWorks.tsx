@@ -47,7 +47,7 @@ const PreviousWorks: React.FC = () => {
       status: 'Completed'
     },
     {
-      name: 'Kerevat Cafe & Restaurant',
+      name: 'Cloud Sun Cafe',
       location: 'Currently Active',
       duration: 'Ongoing Success',
       description: 'Real-time social media management...',

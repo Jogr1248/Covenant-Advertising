@@ -32,14 +32,14 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#contact" className="inline-block">
+            <a href="/contact" className="inline-block">
   <button className="bg-teal-400 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-teal-300 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group">
     Book a Strategy Call
     <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
   </button>
 </a>
 
-<a href="#previous-works" className="inline-block">
+<a href="/previous-works" className="inline-block">
   <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2">
     <Play size={20} />
     Watch Our Work

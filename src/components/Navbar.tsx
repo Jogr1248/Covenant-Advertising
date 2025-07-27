@@ -30,8 +30,12 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/95 backdrop-blur-md py-4' : 'bg-transparent py-6'
-      }`}
+  isMobileMenuOpen
+    ? 'bg-black py-4' // Solid black background when menu is open
+    : isScrolled
+    ? 'bg-black/95 backdrop-blur-md py-4'
+    : 'bg-transparent py-6'
+}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -41,7 +45,7 @@ const Navbar = () => {
               <img
                 src="/Logo.png"
                 alt="Logo"
-                className="h-24 w-full object-contain rounded-full"
+                className="h-18 w-28 object-contain rounded-full bg-white/10 p-1"
               />
             </div>
           
