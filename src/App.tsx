@@ -11,11 +11,12 @@ import PreviousWorks from './components/PreviousWorks';
 import Pricing from './components/Pricing';
 import About from './components/About';
 import Contact from './components/Contact';
-
+import ScrollToTop from './components/ScrollToTop'; 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-black text-white overflow-x-hidden">
+        <ScrollToTop />
         <Navbar />
         
         <Routes>
