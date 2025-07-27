@@ -44,7 +44,7 @@ const PreviousWorks: React.FC = () => {
     duration: 'Outstanding Results',
     description: 'Strategic digital marketing campaign...',
     videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
-    videoUrl: 'mafi.mp4', // <-- Local path
+    videoUrl: './public/mafi.mp4', // <-- Local path
     isLocalVideo: true,
     results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
     status: 'Completed'
@@ -55,7 +55,7 @@ const PreviousWorks: React.FC = () => {
     duration: 'Ongoing Success',
     description: 'Real-time social media management...',
     videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
-    videoUrl: '/videos/cloud-sun.mp4', // <-- Local path
+    videoUrl: './public/mafi.mp4', // <-- Local path
     isLocalVideo: true,
     results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
     status: 'Active'
