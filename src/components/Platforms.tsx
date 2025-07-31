@@ -7,12 +7,12 @@ import { Youtube, Instagram, Facebook, Linkedin, Twitter, BookText as TikTok } f
 
 const Platforms = () => {
   const platforms = [
-    { name: 'YouTube', icon: Youtube, color: 'text-red-500', featured: true },
-    { name: 'Instagram', icon: Instagram, color: 'text-pink-500' },
     { name: 'Facebook', icon: Facebook, color: 'text-blue-500' },
+    { name: 'Instagram', icon: Instagram, color: 'text-pink-500' },
+    { name: 'TikTok', icon: SiTiktok, color: 'text-white' },
     { name: 'LinkedIn', icon: Linkedin, color: 'text-blue-400' },
     { name: 'X', icon: SiX, color: 'text-white' },
-    { name: 'TikTok', icon: SiTiktok, color: 'text-white' }
+    { name: 'YouTube', icon: Youtube, color: 'text-red-500', featured: true }
   ];
 
   const youtubeStats = [
@@ -39,11 +39,11 @@ const Platforms = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="flex items-center mb-6">
-                  <Youtube size={48} className="text-red-500 mr-4" />
-                  <h3 className="text-4xl font-bold">YouTube Specialists</h3>
+                  <Facebook size={48} className="text-blue-500 mr-4" />
+                  <h3 className="text-4xl font-bold">Facebook Specialists</h3>
                 </div>
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  We don't just create YouTube content – we engineer viral success. Our team understands 
+                  We don't just create  content – we engineer viral success. Our team understands 
                   the algorithm, audience behavior, and optimization strategies that drive real results.
                 </p>
                 <div className="grid grid-cols-2 gap-6">
