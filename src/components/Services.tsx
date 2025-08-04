@@ -1,5 +1,7 @@
 import React from 'react';
 import { Share2, PenTool, Target, Video } from 'lucide-react';
+import {  Globe } from 'lucide-react';
+
 
 const Services = () => {
   const services = [
@@ -26,17 +28,24 @@ const Services = () => {
       title: 'Social Media Management',
       description: 'Complete social media strategy, content creation, and community management across all platforms.',
       features: ['Content Strategy', 'Community Building', 'Analytics & Reporting']
-    }
+    },
+    {
+  icon: Globe,
+  title: 'Website Development',
+  description: 'Design and develop responsive, high-performance websites tailored to your brand and business needs.',
+  features: ['Custom Web Design', 'Responsive & Mobile-Friendly', 'SEO Optimization']
+}
+
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-900">
+    <section id="services" className=" pt-36 md:pt-44 py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             What We <span className="text-teal-400">Do</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className=" md:text-1xl text-gray-300 max-w-xl mx-auto">
             We deliver comprehensive digital marketing solutions that drive real results for your business
           </p>
         </div>

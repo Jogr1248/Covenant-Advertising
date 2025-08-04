@@ -3,13 +3,13 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-900">
+    <section id="contact" className=" pt-36 md:pt-44 py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Let's Grow Your <span className="text-teal-400">Brand</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-1xl text-gray-300 max-w-3xl mx-auto">
             Ready to take your digital marketing to the next level? Get in touch for a free strategy consultation.
           </p>
         </div>

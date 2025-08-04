@@ -3,7 +3,7 @@ import { SiTiktok } from 'react-icons/si';
 import { SiX } from 'react-icons/si'; 
 
 
-import { Youtube, Instagram, Facebook, Linkedin, Twitter, BookText as TikTok } from 'lucide-react';
+import { Youtube, Instagram, Facebook, Linkedin, BookText as Tiktok } from 'lucide-react';
 
 const Platforms = () => {
   const platforms = [
@@ -23,14 +23,14 @@ const Platforms = () => {
   ];
 
   return (
-    <section id="platforms" className="py-20 bg-gray-900">
+    <section id="platforms" className="pt-36 md:pt-44 py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Platforms We <span className="text-teal-400">Master</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We dominate every major platform, with special expertise in YouTube marketing and video content
+          <p className="text-1xl text-gray-300 max-w-3xl mx-auto">
+            We dominate every major platform, with special expertise in Facebook marketing and video content
           </p>
         </div>
 
@@ -60,6 +60,7 @@ const Platforms = () => {
                   src="https://images.pexels.com/photos/4050287/pexels-photo-4050287.jpeg"
                   alt="Video production setup"
                   className="rounded-2xl"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"></div>
               </div>

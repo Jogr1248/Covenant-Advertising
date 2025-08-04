@@ -24,13 +24,13 @@ const Workflow = () => {
   ];
 
   return (
-    <section id="workflow" className="py-20 bg-black">
+    <section id="workflow" className="pt-36 md:pt-44 py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             How We <span className="text-teal-400">Work</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-1xl text-gray-300 max-w-3xl mx-auto">
             Our proven methodology ensures consistent results and measurable growth for every campaign
           </p>
         </div>
@@ -81,6 +81,7 @@ const Workflow = () => {
                 src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
                 alt="Analytics dashboard"
                 className="rounded-2xl"
+                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"></div>
             </div>

@@ -63,13 +63,13 @@ const PreviousWorks: React.FC = () => {
   ];
 
   return (
-    <section id="previous-works" className="py-20 bg-gray-900 relative">
+    <section id="previous-works" className=" pt-36 md:pt-44 py-20 bg-gray-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Previous <span className="text-teal-400">Works & Projects</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-1xl text-gray-300 max-w-3xl mx-auto">
             Explore our successful campaigns and ongoing projects with restaurant partners across Ethiopia
           </p>
         </div>

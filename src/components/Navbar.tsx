@@ -41,11 +41,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="backdrop-blur-sm rounded-lg w-36 h-full transition-all duration-500 hover:scale-105">
+            <div className="  w-36 h-full transition-all duration-500 hover:scale-105">
               <img
-                src="/Logo.png"
+                src="/log.png"
                 alt="Logo"
-                className="h-18 w-28 object-contain rounded-full bg-white/10 p-1"
+                className="h-18 w-28 object-contain  p-1"
+               loading="lazy"
               />
             </div>
           

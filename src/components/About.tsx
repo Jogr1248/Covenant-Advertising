@@ -1,9 +1,15 @@
 
 import React from 'react';
+// import SEO from './SEO';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-900 text-white">
+    <section id="about" className=" pt-36 md:pt-44 py-20 bg-gray-900 text-white">
+       {/* <SEO
+        title="About Covenant Advertising"
+        description="Learn more about Covenant Advertising - your trusted partner for digital marketing, branding, and social media strategies."
+        url="https://covenant-advertising.vercel.app/about"
+      /> */}
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl text-center md:text-5xl font-bold mb-6 text-teal-400">About Us</h2>
         <p className="text-lg text-center mb-4 text-gray-300 leading-relaxed">

@@ -1,11 +1,15 @@
 import React from 'react';
 import { ArrowRight, Play } from 'lucide-react';
-
+// import SEO from './SEO';
 const Hero = () => {
   return (
     <section className="pt-36 md:pt-44 relative min-h-screen flex items-center justify-center overflow-hidden">
       
-    
+      {/* <SEO
+        title="Covenant Advertising | Digital Marketing Experts"
+        description="Grow your business with Covenant Advertising. We offer social media marketing, branding, content strategy, and more."
+        url="https://covenant-advertising.vercel.app/"
+      /> */}
 
       {/* Background */}
       <div className="absolute inset-0 z-0">
@@ -13,7 +17,8 @@ const Hero = () => {
           src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
           alt="Creative agency workspace"
           className="w-full h-full object-cover"
-        />
+           loading="lazy"
+       />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
       </div>
@@ -24,9 +29,9 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             In the heart of every campaign,
             <span className="text-teal-400 block">our goal is simple:</span>
-            Help your business grow
+            Help your business grow.
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-1xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             We craft data-driven marketing strategies that turn your vision into viral success. 
             From social media mastery to conversion optimization, we're your growth partners.
           </p>

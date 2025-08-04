@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiTiktok, SiX, SiWhatsapp, SiDiscord, SiTelegram, SiFacebook } from 'react-icons/si';
-import { ArrowUp, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
+import { ArrowUp, Instagram, Linkedin} from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -22,7 +22,8 @@ const Footer = () => {
     'Content Marketing',
     'Paid Advertising',
     'Video Editing & Graphics',
-    'Social Media Management'
+    'Social Media Management',
+    'Website Development'
   ];
 
   const socialLinks = [
@@ -43,11 +44,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
             <div className="mb-4">
-              <img 
-                src="/photo_2025-07-13_16-26-34.jpg" 
-                alt="Covenant Advertising Logo" 
-                className="h-12 w-auto"
-              />
+              
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               We're passionate about helping businesses grow through strategic digital marketing. 

@@ -41,13 +41,13 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-black">
+    <section id="testimonials" className=" pt-36 md:pt-44 py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Our <span className="text-teal-400">Happy Clients</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-1xl text-gray-300 max-w-3xl mx-auto">
             Trusted by restaurants across Ethiopia - see what our happy clients say about their results
           </p>
         </div>
