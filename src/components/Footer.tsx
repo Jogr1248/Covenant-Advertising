@@ -26,16 +26,19 @@ const Footer = () => {
     'Website Development'
   ];
 
-  const socialLinks = [
+   const socialLinks = [
     { icon: Instagram, href: 'https://www.instagram.com/covenant_advertising1?igsh=MWJqcXZhZHZoamFzaQ==', label: 'Instagram' },
     { icon: SiX, href: 'https://x.com/CovenantAd?t=gUqs2yHynbWxK2NmoOw6lQ&s=35', label: 'X' }, 
     { icon: Linkedin, href: 'https://www.linkedin.com/in/covenant-advertising-439700373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
     { icon: SiTiktok, href: 'tiktok.com/@covenant_ad', label: 'Tiktok' },
-    { icon: SiWhatsapp, href: 'https://wa.me/251901409689', label: 'WhatsApp' },
-    { icon: SiDiscord, href: 'https://discordapp.com/users/1394779442718707732', label: 'Discord' },
-      { icon: SiTelegram, href: 'https://t.me/Covenantadvertising', label: 'Telegram' },
+  
   { icon: SiFacebook, href: 'https://www.facebook.com/share/1B6LWaisn4/', label: 'Facebook' }
 
+  ];
+  const MessagingLinks = [
+  { icon: SiWhatsapp, href: 'https://wa.me/251901409689', label: 'WhatsApp' },
+    { icon: SiDiscord, href: 'https://discordapp.com/users/1394779442718707732', label: 'Discord' },
+      { icon: SiTelegram, href: 'https://t.me/Covenantadvertising', label: 'Telegram' },
   ];
 
   return (
@@ -50,7 +53,9 @@ const Footer = () => {
               We're passionate about helping businesses grow through strategic digital marketing. 
               Ready to transform your online presence?
             </p>
-            <div className="flex space-x-4">
+         <h4 className="text-white font-semibold mb-3">Social Media</h4>
+            <div className="flex space-x-4 margin-top-4">
+              
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -62,7 +67,24 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-          </div>
+            <div>
+    <h4 className="text-white font-semibold mb-3 pt-4">Messaging</h4>
+    <div className="flex space-x-4">
+      {MessagingLinks.map((msg) => (
+        <a
+          key={msg.label}
+          href={msg.href}
+          className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-400 hover:text-black transition-all duration-300"
+          aria-label={msg.label}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <msg.icon size={20} />
+        </a>
+      ))}
+    </div>
+  </div>
+  </div>
 
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>

@@ -86,7 +86,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-2.5">
           {packages.map((pkg) => (
             <div
               key={pkg.name}
@@ -158,7 +158,9 @@ const Pricing = () => {
                 Get Custom Quote
               </button>
               <div className="flex items-center justify-center gap-4 text-gray-300">
-                <span>📞 +25101409689</span>
+                <a href="tel:+25101409689" className="flex items-center justify-center gap-2 text-teal-400 hover:underline">
+                📞 +251 014 09689
+              </a>
               </div>
             </div>
           </div>
