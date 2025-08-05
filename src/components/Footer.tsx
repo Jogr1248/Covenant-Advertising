@@ -27,12 +27,13 @@ const Footer = () => {
   ];
 
    const socialLinks = [
+    { icon: SiFacebook, href: 'https://www.facebook.com/share/1B6LWaisn4/', label: 'Facebook' },
     { icon: Instagram, href: 'https://www.instagram.com/covenant_advertising1?igsh=MWJqcXZhZHZoamFzaQ==', label: 'Instagram' },
     { icon: SiX, href: 'https://x.com/CovenantAd?t=gUqs2yHynbWxK2NmoOw6lQ&s=35', label: 'X' }, 
     { icon: Linkedin, href: 'https://www.linkedin.com/in/covenant-advertising-439700373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
-    { icon: SiTiktok, href: 'tiktok.com/@covenant_ad', label: 'Tiktok' },
+    { icon: SiTiktok, href: 'tiktok.com/@covenant_ad', label: 'Tiktok' }
   
-  { icon: SiFacebook, href: 'https://www.facebook.com/share/1B6LWaisn4/', label: 'Facebook' }
+  
 
   ];
   const MessagingLinks = [
