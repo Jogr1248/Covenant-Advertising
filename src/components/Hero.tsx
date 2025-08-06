@@ -31,7 +31,7 @@ const Hero = () => {
             <span className="text-teal-400 block">our goal is simple:</span>
             Help your business grow.
           </h1>
-          <p className="text-xl md:text-1xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-1xl md:text-1xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             We craft data-driven marketing strategies that turn your vision into viral success. 
             From social media mastery to conversion optimization, we're your growth partners.
           </p>
