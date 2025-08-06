@@ -6,7 +6,7 @@ const Pricing = () => {
     {
       name: 'Bronze',
       price: '15,000',
-      audience: '10,200 – 29,500',
+      audience: '10,199 – 29,499',
       color: 'from-purple-600 to-pink-600',
       content: {
         videos: 1,
@@ -19,7 +19,7 @@ const Pricing = () => {
     {
       name: 'Silver',
       price: '22,000',
-      audience: '23,500 – 68,800',
+      audience: '23,499 – 68,799',
       color: 'from-gray-500 to-gray-700',
       content: {
         videos: 2,
@@ -32,7 +32,7 @@ const Pricing = () => {
     {
       name: 'Gold',
       price: '40,000',
-      audience: '33,200 – 96,000',
+      audience: '33,199 – 95,999',
       color: 'from-yellow-500 to-orange-600',
       content: {
         videos: 3,
@@ -45,7 +45,7 @@ const Pricing = () => {
     {
       name: 'Diamond',
       price: '75,000',
-      audience: '40,300 – 120,500',
+      audience: '40,299 – 120,499',
       color: 'from-red-500 to-red-700',
       content: {
         videos: 6,
@@ -58,7 +58,7 @@ const Pricing = () => {
     {
       name: 'Platinum',
       price: '150,000',
-      audience: '70,300 – 198,700',
+      audience: '70,299 – 198,699',
       color: 'from-teal-500 to-green-600',
       content: {
         videos: 10,
