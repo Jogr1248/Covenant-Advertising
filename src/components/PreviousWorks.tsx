@@ -34,7 +34,8 @@ const PreviousWorks: React.FC = () => {
       duration: '6 Months Success',
       description: 'Local market penetration strategy...',
       videoThumbnail: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg',
-      videoUrl: 'https://www.youtube.com/embed/ztgeMxF-xl4',
+      videoUrl: '/Ktaskitchen.mp4', // <-- Local path
+      isLocalVideo: true,
       results: ['Local market dominance', 'Community engagement', 'Revenue growth'],
       status: 'Completed'
     },
