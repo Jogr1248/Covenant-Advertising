@@ -82,7 +82,7 @@ const PreviousWorks: React.FC = () => {
   videoUrl: 'https://www.youtube.com/embed/AqC19uzg0ys',
   //isLocalVideo: false,
   results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
-  status: 'Completed'
+  status: 'Active'
 }
   ];
 

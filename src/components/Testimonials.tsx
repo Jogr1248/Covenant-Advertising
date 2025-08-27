@@ -19,26 +19,26 @@ const Testimonials = () => {
       text: 'The team at Covenant Advertising understood our local market in Jimma perfectly. Their content strategy helped us reach more customers and build a strong online presence.',
       results: '6 Months Success'
     },
-    {
-      name: 'Mafi Restaurant',
-      role: 'Restaurant, Adama',
-      image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg',
-      rating: 5,
-      text: 'Covenant Advertising delivered exceptional results for our restaurant in Adama. Their creative content and strategic approach helped us connect with our target audience effectively.',
-      results: 'Outstanding Results'
-    }
+     {
+    name: 'Beautiko College',
+    role: 'Training Institute, Pretoria, South Africa',
+    image: 'https://www.beautiko.net/wp-content/uploads/2021/07/cropped-Beautiko-College-Logo-Black.png', // replace with actual logo/thumbnail if needed
+    rating: 5,
+    text: 'Covenant Advertising enhanced our brand presence with creative strategies and impactful campaigns. Their support helped us grow our student base and strengthen our online visibility.',
+    results: 'Outstanding Results'
+  }
   ];
 
-  const currentClients = [
-    {
-      name: 'Cloud Sun Cafe',
-      role: 'Currently Active Project',
-      image: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
-      rating: 5,
-      text: 'Currently working with Covenant Advertising and already seeing amazing progress. Their professional approach and creative solutions are exactly what we needed.',
-      results: 'Ongoing Success'
-    }
-  ];
+const currentClients = [
+  {
+    name: 'California Training Institute',
+    role: 'Currently Active Project',
+    image: 'https://z-p3-scontent.fadd2-1.fna.fbcdn.net/v/t39.30808-6/475240632_960421769518344_731347323528315987_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGcC6T8uXpvqw-MzlttNL5EiNz3ZYr3FOmI3PdlivcU6ehYgoGXt96XSICqWLEvQ9mWHObRfdLA2VflEnXLOhzP&_nc_ohc=NqJM1Nn8el0Q7kNvwGg-amG&_nc_oc=AdnGchsoKuiSLAHhyUj47Sgt1TxTxYIf5zh7D5rGXKV9f1LGU3FzRgR5ql1AkaEYEOY&_nc_zt=23&_nc_ht=z-p3-scontent.fadd2-1.fna&_nc_gid=CHAZeI3yq_n1uI_hLvYF-A&oh=00_AfVIn1Q-MayglZ_CqXk5xh3U0gkCCKNVbjI0FtmQsp2SRQ&oe=68B4CF13', // replace with better logo if available
+    rating: 5,
+    text: 'Currently working with Covenant Advertising and already seeing remarkable improvements. Their innovative approach and digital expertise are exactly what we needed.',
+    results: 'Ongoing Success'
+  }
+];
 
   return (
     <section id="testimonials" className=" pt-36 md:pt-44 py-20 bg-black">
