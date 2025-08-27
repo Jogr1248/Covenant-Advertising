@@ -8,14 +8,14 @@ const Footer = () => {
   };
 
   const quickLinks = [
-    { name: 'Services', href: '#services' },
-    { name: 'How We Work', href: '#workflow' },
-    { name: 'Platforms', href: '#platforms' },
-    { name: 'Happy Clients', href: '#testimonials' },
-    { name: 'Previous Works', href: '#previous-works' },
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'About Us', href: '#about' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Services', href: ' /services' },
+    { name: 'How We Work', href: '/workflow' },
+    { name: 'Platforms', href: '/platforms' },
+    { name: 'Happy Clients', href: '/testimonials' },
+    { name: 'Previous Works', href: '/previous-works' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Contact', href: '/contact' }
   ];
 
   const services = [
