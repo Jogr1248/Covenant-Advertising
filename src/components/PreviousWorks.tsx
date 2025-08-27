@@ -39,28 +39,51 @@ const PreviousWorks: React.FC = () => {
       results: ['Local market dominance', 'Community engagement', 'Revenue growth'],
       status: 'Completed'
     },
+    // {
+    // name: 'Mafi Restaurant',
+    // location: 'Adama',
+    // duration: 'Outstanding Results',
+    // description: 'Strategic digital marketing campaign...',
+    // videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
+    // videoUrl: '/mafi.mp4', // <-- Local path
+    // isLocalVideo: true,
+    // results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
+    // status: 'Completed'
+    // },
     {
-    name: 'Mafi Restaurant',
-    location: 'Adama',
-    duration: 'Outstanding Results',
-    description: 'Strategic digital marketing campaign...',
-    videoThumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
-    videoUrl: '/mafi.mp4', // <-- Local path
-    isLocalVideo: true,
-    results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
-    status: 'Completed'
-    },
+  name: 'Beautiko College',
+  location: 'South Africa',
+  duration: '6 Months Collaboration', // example, replace with actual time
+  description: 'Strategic digital marketing campaign for beauty and wellness education...',
+  videoThumbnail: '/beauu.png', // replace with actual logo/thumbnail if needed
+  videoUrl: '/video.mp4',
+  isLocalVideo: true,
+  results: ['Visual brand enhancement', 'Customer base expansion', 'Online presence growth'],
+  status: 'Completed'
+},
+
+    // {
+    //   name: 'Cloud Sun Cafe',
+    // location: 'Currently Active',
+    // duration: 'Ongoing Success',
+    // description: 'Real-time social media management...',
+    // videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
+    // videoUrl: '/cloud-sun.mp4', // <-- Local path
+    // isLocalVideo: true,
+    // results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
+    // status: 'Active'
+    // },
     {
-      name: 'Cloud Sun Cafe',
-    location: 'Currently Active',
-    duration: 'Ongoing Success',
-    description: 'Real-time social media management...',
-    videoThumbnail: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg',
-    videoUrl: '/cloud-sun.mp4', // <-- Local path
-    isLocalVideo: true,
-    results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
-    status: 'Active'
-    }
+  name: 'California Training Institute',
+  location: 'Addis Ababa, Ethiopia',
+  duration: '5 Months Success',
+  description: 'Digital skills training and support....',
+  videoThumbnail: 'https://z-p3-scontent.fadd2-1.fna.fbcdn.net/v/t39.30808-6/475240632_960421769518344_731347323528315987_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGcC6T8uXpvqw-MzlttNL5EiNz3ZYr3FOmI3PdlivcU6ehYgoGXt96XSICqWLEvQ9mWHObRfdLA2VflEnXLOhzP&_nc_ohc=NqJM1Nn8el0Q7kNvwGg-amG&_nc_oc=AdnGchsoKuiSLAHhyUj47Sgt1TxTxYIf5zh7D5rGXKV9f1LGU3FzRgR5ql1AkaEYEOY&_nc_zt=23&_nc_ht=z-p3-scontent.fadd2-1.fna&_nc_gid=CHAZeI3yq_n1uI_hLvYF-A&oh=00_AfVIn1Q-MayglZ_CqXk5xh3U0gkCCKNVbjI0FtmQsp2SRQ&oe=68B4CF13', // replace with actual logo/thumbnail
+  videoUrl: 'https://www.youtube.com/embed/AqC19uzg0ys',
+  //isLocalVideo: false,
+  results: ['Daily content creation', 'Real-time engagement', 'Growing follower base'],
+  status: 'Completed'
+}
   ];
 
   return (
